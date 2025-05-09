@@ -36,7 +36,7 @@
 
             const bannerTitle = document.createElement('div');
             bannerTitle.classList.add('banner-title');
-            bannerTitle.innerHTML = "<h2>Beğenebileğinizi Düşündüklerimiz</h2>";
+            bannerTitle.innerHTML = "<h2>Beğenebileğinizi düşündüklerimiz</h2>";
             container.appendChild(bannerTitle);
 
             const btnContainer = document.createElement('div');
