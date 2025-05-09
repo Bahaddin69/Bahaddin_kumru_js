@@ -332,12 +332,12 @@
             const productCards = document.querySelectorAll('.product-card');
             const totalItems = productCards.length;
 
-            const visibleItems = 5; // Aynı anda 5 kart görünsün
-            const cardWidthWithMargin = 263; // Kart genişliği + margin
-            const itemsPerSlide = 1; // 1 tene 1 tene kaydırma yapacak
-
+            const visibleItems = 5;
+            const cardWidthWithMargin = 263; 
+            const itemsPerSlide = 1; 
+            
             let currentPosition = 0;
-            const maxPosition = (totalItems - visibleItems) * cardWidthWithMargin; // Carousel babanın kaydırılabileceği maksimum pozisyon
+            const maxPosition = (totalItems - visibleItems) * cardWidthWithMargin; 
 
             function updateCarousel() {
                 // Sınır kontrolü (0 ile maxPosition arasında)
@@ -349,13 +349,13 @@
 
             nextBtn.addEventListener('click', () => {
                 currentPosition += cardWidthWithMargin * itemsPerSlide;
-                if (currentPosition > maxPosition) currentPosition = 0; // Sona gelince başa dön
+                if (currentPosition > maxPosition) currentPosition = 0; 
                 updateCarousel();
             })
 
             prevBtn.addEventListener('click', () => {
                 currentPosition -= cardWidthWithMargin * itemsPerSlide;
-                if (currentPosition < 0) currentPosition = maxPosition; // Başa gelince sona git
+                if (currentPosition < 0) currentPosition = maxPosition; 
                 updateCarousel();
             })
 
