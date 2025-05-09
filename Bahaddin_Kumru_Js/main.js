@@ -36,7 +36,7 @@
 
             const bannerTitle = document.createElement('div');
             bannerTitle.classList.add('banner-title');
-            bannerTitle.innerHTML = "<h2>Sizin için Seçtiklerimiz</h2>";
+            bannerTitle.innerHTML = "<h2>Beğenebileğinizi Düşündüklerimiz</h2>";
             container.appendChild(bannerTitle);
 
             const btnContainer = document.createElement('div');
@@ -66,7 +66,7 @@
                 productCard.innerHTML = `
                             <div class="favorite-icon" data-id="${product.id}">
                                 <img src="https://www.e-bebek.com/assets/svg/default-favorite.svg" class="setFavoriteItem" alt="">
-                                <img src="https://www.e-bebek.com/assets/svg/default-hover-favorite.svg" style="z-index:999999999999999999999;" class="removeFavoriteItem" alt="">
+                                <img src="https://www.e-bebek.com/assets/svg/default-hover-favorite.svg" class="removeFavoriteItem" alt="">
                             </div>
                     <a href="${product.url}" class="product-item" target="_blank">
                         <div class="product-image">
