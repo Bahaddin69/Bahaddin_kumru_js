@@ -19,7 +19,6 @@
 
 ## 🧪 Test
 Geliştirme süreci boyunca işlemler:
-- Sadece ebebek sitesi üzerinde test edildi.
 - Konsol üzerinden adım adım çalıştırılarak hatasız şekilde ilerletildi.
 - localStorage verileri elle kontrol edilerek doğrulandı.
 - **Kod yapısı, bana atılan case dosyasındaki örnek hiyerarşi baz alınarak; IIFE (Immediately Invoked Function Expression) mimarisi ile modüler ve izole fonksiyonlar şeklinde oluşturulmuştur.**
